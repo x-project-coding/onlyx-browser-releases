@@ -13,9 +13,9 @@ This repository holds the installers only. The source is private.
 4. Press **Sign in with your browser** — your own browser opens, you approve there, and the app
    takes it from here. Nothing is ever typed into the app.
 
-The app is signed with a Developer ID and notarized by Apple, so it opens without a warning.
-If macOS ever says the app "cannot be opened", you have an unsigned copy — delete it and download
-again from the link above.
+The app is signed with a Developer ID and notarized by Apple. macOS may ask you to confirm
+opening an app downloaded from the internet. If installation fails, download the latest release
+again or contact support@onlyx.ai with the exact message.
 
 ## Creator tabs, and the one rule
 
