@@ -42,7 +42,11 @@ desktop sign-in. Browser opens that sign-in locally without launching the separa
 
 ## Updates
 
-The app checks this repository and updates itself. No action needed.
+Updates download automatically in the background. Browser checks at launch, every hour while open, and after the computer wakes. Failed checks or downloads retry after 15 minutes.
+
+Starting with 0.2.1, a staged update restarts Browser automatically after 15 minutes of system inactivity. Creator tabs, account sign-ins, downloads, navigation and media postpone the restart. New keyboard/mouse input resets the idle time. Normal quit also installs the update. Both paths finish Browser session cleanup before installation; the account menu shows when an update is ready.
+
+If you already use signed 0.2.0, open Browser while online to download this patch, then quit normally. The next launch uses 0.2.1 and enables automatic idle restarts for future updates. An older unsigned build needs one manual installation of the latest signed release.
 
 ## Windows
 
